@@ -86,7 +86,7 @@ public class Cycle {
         Scanner in = new Scanner(System.in);
         System.out.print("Введите первое целое число: ");
         int n = in.nextInt();
-        System.out.println(Summa(n));
+        System.out.println(Summa(n));///#just sum
     }
 
     public static int Summa(int a){
@@ -124,4 +124,5 @@ public class Cycle {
         }
         System.out.println(summa);
     }
+///please rename function name in English(Example: ZD# -> Task__)
 }
